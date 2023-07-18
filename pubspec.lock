@@ -235,9 +235,11 @@ packages:
   starknet:
     dependency: "direct main"
     description:
-      path: "/home/robin/src/rob/blockchain/starknet/starknet.dart/packages/starknet"
-      relative: false
-    source: path
+      path: "packages/starknet"
+      ref: "84df7d8935cca08aa35e406f4b03e27b29b2a523"
+      resolved-ref: "84df7d8935cca08aa35e406f4b03e27b29b2a523"
+      url: "http://github.com/ptisserand/starknet.dart.git"
+    source: git
     version: "0.1.0"
   stream_channel:
     dependency: transitive

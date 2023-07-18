@@ -36,7 +36,10 @@ dependencies:
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^1.0.2
   starknet:
-    path: /home/robin/src/rob/blockchain/starknet/starknet.dart/packages/starknet
+    git:
+      url: http://github.com/ptisserand/starknet.dart.git
+      ref: 84df7d8935cca08aa35e406f4b03e27b29b2a523
+      path: packages/starknet
   
 dev_dependencies:
   flutter_test:
